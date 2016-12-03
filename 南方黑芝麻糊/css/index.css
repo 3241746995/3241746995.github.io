@@ -1,0 +1,388 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.looding{
+	/*display: none;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.looding .wukong{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.looding p{
+	position: absolute;
+	width: 100%;
+	top: 53.521126760563384%;
+	font-size: 1.7605633802816902vh;
+	text-align: center;
+	color: #ffe307;
+}
+.looding .looding-wrap{
+	position: absolute;
+	overflow: hidden;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70%;
+	height: 2.0246478873239435%;
+	background-color: #4b2837;
+	border-radius: 3% / 50%;
+}
+.looding .looding-wrap .looding-strip{
+	background: #ffe307;
+	height: 100%;
+	width: 0;
+}
+/*---------01--------*/
+.star-wrap img{
+	display: block;
+}
+.star-wrap{
+	display: none;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/01-bg.png);
+	background-size: 100% 100%;
+}
+.jDyun{
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 94.53846153846153%;
+	width: 100%;
+	height: 13.846153846153847%;
+}
+
+.star-01{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.wukong-01{
+	opacity: 0;
+	position: absolute;
+	top: 62.69230769230769%;
+	left: 4.21875%;
+	width: 50.15625%;
+	height: 32.11538461538462%;
+}
+.xiyou-01{
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.wksh-01{
+	opacity: 0;
+	position: absolute;
+	top:67.09154929577465%;
+	left: 37.15625%;
+	width: 54.84375%;
+	height: 15.757042253521126%;
+}
+.get-btn{
+	opacity: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 17.115384615384617%;
+}
+
+.quanjiafu{
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 54.61538461538461%;
+	top: 26.53846153846154%;
+}
+.star-go{
+	opacity: 0;
+	position: absolute;
+	width: 20.9375%;
+	height: 13.653846153846153%;
+	left: 50%;
+	margin-left: -10%;
+	top: 81.73076923076923%;
+}
+/*答题页面*/
+.Tw-que-wrap{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/TW-bg.png);
+	background-size: 100% 100%;
+}
+
+.que-name-wrap{
+	position: absolute;
+	background-image: url(../img/T-title.png);
+	background-size: 100% 100%;
+	width: 92.8125%;
+	height: 14.612676056338028%;
+	left: 50%;
+	margin-left: -46.40625%;
+	top: 9.154929577464788%;
+}
+.que-image{
+	position: absolute;
+	width: 56.5625%;
+	height: 21.830985915492956%;
+	top: 23.679577464788732%;
+	left: 50%;
+	margin-left: -28.28125%;
+}
+.que-image img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.que-name{
+	display: block;
+	margin-left: 20%;
+	padding-top: 4%;
+	padding-left: 2%;
+	padding-right: 4%;
+	width: 74%;
+	height: 96%;
+	font-size: 2.5vh;
+	text-align: center;
+}
+
+.que-No{
+	position: absolute;
+	font-weight: bold;
+	font-size: 2.5vh;
+	top:60%;
+	left: 9%;
+}
+.option{
+	position: absolute;
+	width: 100%;
+	height: 45.774647887323944%;
+	top: 46.65492957746479%;
+	left: 0;
+}
+.option li{
+	position: relative;
+	width: 100%;
+	height: 24%;
+	background-size: 100% 100%;
+	margin-bottom: 1%;
+}
+
+.option li span{
+	position: absolute;
+	line-height: 5vh;
+	text-align: center;
+	font-size:3vh;
+	padding-left: 20%;
+	padding-right: 20%;
+	width: 60%;
+	height: 100%;
+}
+.option li div{
+	display: none;
+	background-image: url(../img/T.png);
+	background-size: 100% 100%;
+	position: absolute;
+	width: 9%;
+	height: 47.69230769230769%;
+	top: 22%;
+	left: 81.5%;
+}
+.option li:nth-child(1){
+	background-image: url(../img/A.png);
+}
+.option li:nth-child(2){
+	background-image: url(../img/B.png);
+}
+.option li:nth-child(3){
+	background-image: url(../img/C.png);
+}
+.option li:nth-child(4){
+	background-image: url(../img/D.png);
+}
+
+/*游戏结束*/
+.gameover-wrap{
+	display: none;
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/over-bg.png);
+	background-size: 100% 100%;
+}
+/*------------lose------------*/
+.lose{
+	display: none;
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.lose p,.win p{
+	position: absolute;
+	left:0;
+	top: 31.25%;
+	width: 100%;
+	font-size: 3.8461538461538463vh;
+	text-align: center;
+	color: #502e35;
+}
+.endFen{
+	color: #ffe307;
+	font-size: 4.8076923076923075vh;
+}
+.lose-pag{
+	position: absolute;
+	left:0;
+	top: 36.53846153846154%;
+	width: 100%;
+	height: 33.75%;
+}
+.lose-recur{
+	opacity: 0;
+	position: absolute;
+	left:0;
+	top: 82.11538461538461%;
+	width: 100%;
+	height: 30%;
+}
+
+/*再来一次按钮*/
+.btn-recur{
+	/*background-color: aquamarine;*/
+	position: absolute;
+	left:6%;
+	top: 87%;
+	width: 40.625%;
+	height: 5.457746478873239%;
+	transform: rotate(-11deg);
+	
+}
+/*呼朋唤友*/
+.btn-call{
+	/*background-color: aquamarine;*/
+	position: absolute;
+	left:53%;
+	top: 85%;
+	width: 40.625%;
+	height: 5.457746478873239%;
+	transform: rotate(11deg);
+}
+/*-------------win----------*/
+.win{
+	display: none;
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.win-call{
+	opacity: 0;
+	position: absolute;
+	left:0;
+	top: 71.34615384615384%;
+	width: 100%;
+	height: 37.78846153846154%;
+}
+.btn-win-call{
+	/*background-color: aquamarine;*/
+	position: absolute;
+	left:28%;
+	top: 74.34615384615384%;
+	width: 40.625%;
+	height: 5.457746478873239%;
+	transform: rotate(-10deg);
+}
+
+/*win中间内容*/
+.win-center{
+
+	position: absolute;
+	left:0;
+	top: 36.53846153846154%;
+	width: 100%;
+	height: 33.46153846153846%;
+	background-image: url(../img/win-center.png);
+	background-size: 100% 100%;
+}
+.win-center .win-center-text{
+	font-size: 4.423076923076923vh;
+}
+
+/*抽到奖了*/
+.win-money{
+	display: none;
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.win-yuan{
+	display: none;
+	position: absolute;
+	left:0;
+	top: 26.73076923076923%;
+	width: 100%;
+	height: 42.30769230769231%;
+}
+/*最后信息*/
+.message-wrap{
+	display: none;
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.message{
+	background-image: url(../img/message.png);
+	background-size: 100% 100%;
+	position: absolute;
+	left:0;
+	top: 26.53846153846154%;
+	width: 100%;
+	height: 46.92307692307692%;
+}
+.fill-message{
+	background: peachpuff;
+	position: absolute;
+	left:0;
+	top: 50%;
+	left: 50%;
+	margin-left: -22.65625%;
+	width: 45.3125%;
+	height: 45%;
+}

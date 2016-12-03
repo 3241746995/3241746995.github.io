@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>南方黑芝麻糊</title>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate-all.css"/>
+	</head>
+	<body>
+		<!--首页加载-->
+		<div class="looding">
+			<!--悟空动画-->
+			<img src="img/loading.gif" class="wukong" alt=""/>
+			<!--加载进度-->
+			<p><span id="loodings">0</span>%</p>
+			<!--进度条-->
+			<div class="looding-wrap">
+				
+				<div class="looding-strip">
+					
+				</div>
+			</div>
+		</div>
+		<!--答题前第一个页面01、02-->
+		<div class="star-wrap">
+			<!--01-->
+			
+			<div class="star-01 bounceOutLeft delay5">
+				<!--悟空说话-->
+				<img src="img/01-wk-shuhua.png" class="wksh-01 bounceIn delay3"/>
+				<!--西游=多少-->
+				<img src="img/01-西游知多少H5.png" class="xiyou-01 bounceInLeft"/>
+				<!--悟空-->
+				<img src="img/01-wukong.png" class="wukong-01 bounceInRight delay1-5"/>
+				<!--筋斗云-->
+				<img src="img/01-jindouyun.png" class="jDyun bounceInRight delay1-5"/>
+				<!--点击进入-->
+				<img src="img/02-get.png" class="get-btn bounceInUp delay3"/>
+				
+			</div>
+			<!--02-->
+				<img src="img/02-quajia.png" class="quanjiafu zoomInDown delay5-5"/>
+				<!--go-->
+				<img src="img/03-go.png" class="star-go bounceIn delay7"/>
+		</div>
+		<!--答题界面-->
+		<div class="Tw-que-wrap">
+			<!--题目-->
+			<div class="que-name-wrap">
+				<!--题号-->
+				<span class="que-No">1</span>
+				<!--题目名称-->
+				<span class="que-name">aaaaaa</span>
+			</div>
+			<!--插图-->
+			<div class="que-image">
+				<img src="img/pic1.png"/>
+			</div>
+			<!--选项-->
+			<ul class="option">
+				<li><span>1</span><div class="ToR"></div></li>
+				<li><span>2</span><div class="ToR"></div></li>
+				<li><span>3</span><div class="ToR"></div></li>
+				<li><span>4</span><div class="ToR"></div></li>
+			</ul>
+		</div>
+		<!--答题结束wrap-->
+		<div class="gameover-wrap">
+			<!--不能抽奖界面-->
+			<div class="lose">
+				<p>您答对<span class="endFen">0</span>题，获得
+				<span class="endFen">0</span>分</p>
+				<!--猪-->
+				<img src="img/lose-pag.png" class="lose-pag zoomInDown" />
+				<!--再来一次，呼朋唤友-->
+				<img src="img/lose-recur.png" class="lose-recur bounceInUp delay1-5"/>
+				<!--再来一次btn-->
+				<div class="btn-recur">
+				</div>
+				<!--呼朋唤友-->
+				<div class="btn-call">
+				</div>
+			</div>
+			<!--可以抽奖-->
+			<div class="win">
+				<p>您答对<span class="endFen">0</span>题，获得
+				<span class="endFen">0</span>分</p>
+				<!--中间得分-->
+				<div class="win-center zoomInDown">
+					<p class="win-center-text">
+						西游八级学者
+					</p>
+				</div>
+				
+				
+				<!--分享-->
+				<img src="img/win-call.png" class="win-call bounceIn delay1-5"/>
+				<!--再来一次，点击抽奖-->
+				<img src="img/win-recur.png" class="lose-recur bounceInUp delay1-5"/>
+				
+				<!--再来一次btn-->
+				<div class="btn-recur">
+				</div>
+				<!--点击抽奖-->
+				<div class="btn-call btn-CJ">
+				</div>
+				<!--分享按钮-->
+				<div class="btn-win-call">
+				</div>
+			</div>
+			<!--抽到奖了-->
+			<div class="win-money">
+				<!--得到的金额显示-->
+				<img src="img/15yuan.png" class="win-yuan win-15 zoomInDown"/>
+				<img src="img/5yuan.png" class="win-yuan win-5 zoomInDown"/>
+				
+				<!--分享-->
+				<img src="img/win-call.png" class="win-call bounceIn delay1-5"/>
+				<!--再来一次，点击抽奖-->
+				<img src="img/win-recur.png" class="lose-recur bounceInUp delay1-5"/>
+				
+				<!--再来一次btn-->
+				<div class="btn-recur">
+				</div>
+				<!--点击抽奖-->
+				<!--<div class="btn-call btn-CJ">
+				</div>-->
+				<!--分享按钮-->
+				<div class="btn-win-call">
+				</div>
+			</div>
+			<!--填写信息-->
+			<div class="message-wrap">
+				<!--信息单-->
+				<div class="message zoomInDown">
+					<!--填写信息-->
+					<div class="fill-message ">
+					</div>
+
+				</div>
+				<!--再来一次,点击抽奖-->
+				<img src="img/win-recur.png" class="lose-recur bounceInUp delay1-5"/>
+				<!--再来一次btn-->
+				<div class="btn-recur">
+				</div>
+				<!--点击抽奖-->
+				<!--<div class="btn-call btn-CJ">
+				</div>-->
+			</div>
+		</div>
+		
+		
+	</body>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="js/question.js">
+		
+	</script>
+	<script type="text/javascript" src="js/index.js">
+		
+	</script>
+	
+</html>

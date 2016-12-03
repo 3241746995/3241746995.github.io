@@ -1,0 +1,113 @@
+
+/*01入场动画*/
+/**/
+.bounceInLeft{
+	 -webkit-animation-name: bounceInLeft;
+ 	 animation-name: bounceInLeft;
+ 	 -webkit-animation-duration: 1.5s;
+ 	 animation-duration: 1.5s;
+ 	 -webkit-animation-fill-mode: forwards;
+ 	 animation-fill-mode: forwards;
+ 	 -webkit-animation-iteration-count: 1;
+ 	 animation-iteration-count: 1;
+}
+
+.bounceInRight{
+	 -webkit-animation-name: bounceInRight;
+ 	 animation-name: bounceInRight;
+ 	 -webkit-animation-duration: 1.5s;
+ 	 animation-duration: 1.5s;
+ 	 -webkit-animation-fill-mode: forwards;
+ 	 animation-fill-mode: forwards;
+ 	 -webkit-animation-iteration-count: 1;
+ 	 animation-iteration-count: 1;
+}
+
+.bounceIn{
+	-webkit-animation-name: bounceIn;
+ 	 animation-name: bounceIn;
+ 	 -webkit-animation-duration: 1.5s;
+ 	 animation-duration: 1.5s;
+ 	 /*animation-delay: 3s;*/
+ 	 -webkit-animation-fill-mode: forwards;
+ 	 animation-fill-mode: forwards;
+ 	 -webkit-animation-iteration-count: 1;
+ 	 animation-iteration-count: 1;
+}
+
+
+.bounceInUp{
+	 -webkit-animation-name: bounceInUp;
+ 	 animation-name: bounceInUp;
+ 	 -webkit-animation-duration: 1.5s;
+ 	 animation-duration: 1.5s;
+ 	 /*animation-delay: 4.5s;*/
+ 	 -webkit-animation-fill-mode: forwards;
+ 	 animation-fill-mode: forwards;
+ 	 -webkit-animation-iteration-count: 1;
+ 	 animation-iteration-count: 1;
+}
+.tada{
+	-webkit-animation-name: tada;
+ 	 animation-name: tada;
+ 	 -webkit-animation-duration: 1.5s;
+ 	 animation-duration: 1.5s;
+ 	 -webkit-animation-fill-mode: forwards;
+ 	 animation-fill-mode: forwards;
+ 	 -webkit-animation-iteration-count: 1;
+ 	 animation-iteration-count: 1;
+}
+.bounceOutLeft{
+	-webkit-animation-name: bounceOutLeft;
+ 	 animation-name: bounceOutLeft;
+ 	 -webkit-animation-duration: 1.5s;
+ 	 animation-duration: 1.5s;
+ 	 -webkit-animation-fill-mode: forwards;
+ 	 animation-fill-mode: forwards;
+ 	 -webkit-animation-iteration-count: 1;
+ 	 animation-iteration-count: 1;
+}
+.zoomInDown{
+	-webkit-animation-name: zoomInDown;
+ 	 animation-name: zoomInDown;
+ 	 -webkit-animation-duration: 1.5s;
+ 	 animation-duration: 1.5s;
+ 	 -webkit-animation-fill-mode: forwards;
+ 	 animation-fill-mode: forwards;
+ 	 -webkit-animation-iteration-count: 1;
+ 	 animation-iteration-count: 1;
+}
+/*延时函数*/
+.delay1-5{
+ 	 animation-delay: 1.5s;
+ 	 -webkit-animation-delay: 1.5s;
+}
+.delay3{
+ 	 animation-delay: 3s;
+ 	 -webkit-animation-delay: 3s;
+}
+.delay4-5{
+ 	 animation-delay: 4.5s;
+ 	 -webkit-animation-delay: 4.5s;
+}
+.delay5{
+ 	 animation-delay: 5s;
+ 	 -webkit-animation-delay: 5s;
+}
+.delay5-5{
+ 	 animation-delay: 5.5s;
+ 	 -webkit-animation-delay: 5.5s;
+}
+.delay6{
+ 	 animation-delay: 6s;
+ 	 -webkit-animation-delay: 6s;
+}
+.delay7{
+ 	 animation-delay: 7s;
+ 	 -webkit-animation-delay: 7s;
+}
+/*无限次*/
+.infinite{
+	-webkit-animation-iteration-count: infinite;
+ 	 animation-iteration-count: infinite;
+}
